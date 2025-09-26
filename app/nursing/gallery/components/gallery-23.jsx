@@ -7,10 +7,10 @@ const images = [
   "/1.jpeg",
   "/4.jpg",
   "/5.jpg",
-  "/12.png",
+  "/marin-bedroom.png",
   "/9.jpg",
   "/22.jpg",
-  "/10.jpg",
+  "/marin-outside.jpeg",
   "/14.jpg",
   "/33.jpg",
   "/29.jpg",
@@ -45,7 +45,7 @@ export function Gallery23() {
     let offset = 0;
 
     const scroll = () => {
-      offset -= 2.0; // speed (px/frame)
+      offset -= .6; // speed (px/frame)
       if (Math.abs(offset) >= loopedImages.length * 260 / 2) {
         offset = 0; // reset halfway for seamless loop
       }
