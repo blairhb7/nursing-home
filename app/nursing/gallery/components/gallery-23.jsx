@@ -45,7 +45,7 @@ export function Gallery23() {
     let offset = 0;
 
     const scroll = () => {
-      offset -= 1.5; // speed (px/frame)
+      offset -= 2.0; // speed (px/frame)
       if (Math.abs(offset) >= loopedImages.length * 260 / 2) {
         offset = 0; // reset halfway for seamless loop
       }

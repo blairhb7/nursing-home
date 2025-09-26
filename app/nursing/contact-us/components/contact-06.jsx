@@ -11,7 +11,7 @@ const fadeUp = {
 
 export function Contact6() {
   return (
-    <section id="contact" className="px-[5%] py-16 md:py-24 lg:py-28 bg-[#1D3038] text-white  overflow-hidden">
+    <section id="contact" className="px-[5%]  py-16 md:py-24 lg:py-28 bg-[#1D3038] text-white  overflow-hidden">
       <div className="container mx-auto grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
 
         {/* Left Side */}
@@ -19,7 +19,7 @@ export function Contact6() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.5 }}
           variants={fadeUp}
         >
           <div className="mb-6 md:mb-8">

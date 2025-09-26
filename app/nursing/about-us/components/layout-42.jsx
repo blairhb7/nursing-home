@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function Layout42() {
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-[#1D3038] text-white">
+    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-[#1D3038] text-white overflow-hidden">
       <div className="container">
         <motion.div
           className="grid grid-cols-1 items-start justify-between gap-5 md:grid-cols-2 md:gap-x-12 md:gap-y-8 lg:gap-x-20"

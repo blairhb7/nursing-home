@@ -28,7 +28,7 @@ export function Layout421() {
   ];
 
   return (
-    <section className="relative flex flex-col  py-16 md:py-24 lg:py-28 w-screen overflow-hidden bg-white text-black">
+    <section className="relative flex flex-col mt-6  py-16 md:py-24 lg:py-28 w-screen overflow-hidden bg-white text-black">
       {/* Text Section */}
       <div className="text-center z-10 relative">
         <div className="mx-auto max-w-3xl w-full ">

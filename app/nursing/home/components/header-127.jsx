@@ -15,11 +15,11 @@ export default function Header127() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <img src="/logo.png" alt="" className=" w-80 h-24" />
-          <h1 className={` mb-5 text-2xl md:text-3xl lg:text-6xl font-light`}>
+          <img src="/logo.png" alt="" className=" my-10 w-80 h-24" />
+          <h1 className={` mb-5 text-2xl md:text-3xl lg:text-6xl font-bold`}>
             Your Home for Compassionate Senior Care
           </h1>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-lg font-extralight">
             Experience a nurturing environment where seniors are cherished
             and supported. Our dedicated team is here to ensure every
             moment is filled with compassion and joy.

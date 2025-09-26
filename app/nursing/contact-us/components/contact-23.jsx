@@ -46,7 +46,7 @@ export function Contact23() {
   ];
 
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-[#DAE4E8] text-black overflow-hidden">
+    <section id="relume" className="px-[5%] mt-6 py-16 md:py-24 lg:py-28 bg-[#DAE4E8] text-black overflow-hidden">
       <div className="container">
         {/* Heading */}
         <motion.div
@@ -58,7 +58,7 @@ export function Contact23() {
           className="mx-auto mb-12 max-w-lg text-center md:mb-18 lg:mb-20"
         >
           
-          <h2 className="mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
+          <h2 className="mb-2 text-5xl font-bold md:mb-3 md:text-7xl lg:text-8xl">
             Contact us
           </h2>
           <p className="md:text-md">

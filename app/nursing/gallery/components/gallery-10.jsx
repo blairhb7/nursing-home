@@ -25,7 +25,7 @@ export function Gallery10() {
   return (
     <section
       id="relume"
-      className="px-[5%] py-16 md:py-24 lg:py-28 bg-white text-black"
+      className="px-[5%] mt-6 py-16 md:py-24 lg:py-28 bg-white text-black"
     >
       <div className="container">
         {/* Heading */}

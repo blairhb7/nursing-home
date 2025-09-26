@@ -7,7 +7,7 @@ export function Header137() {
   return (
     <section
       id="relume"
-      className="grid grid-cols-1 items-center gap-y-16 w-screen pt-16 md:pt-24 lg:grid-cols-2 lg:pt-0 bg-[#1D3038] text-white"
+      className="grid grid-cols-1 items-center mt-6 overflow-hidden gap-y-16 w-screen pt-16 md:pt-24 lg:grid-cols-2 lg:pt-0 bg-[#1D3038] text-white"
     >
       {/* Text Content */}
       <motion.div

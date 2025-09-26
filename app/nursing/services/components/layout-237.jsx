@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export function Layout237() {
   return (
-    <section id="services" className="px-[5%] py-16 md:py-24 lg:py-28 bg-white text-black">
+    <section id="services" className="px-[5%] mt-6 py-16 md:py-24 lg:py-28 bg-white text-black">
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           {/* Heading */}
