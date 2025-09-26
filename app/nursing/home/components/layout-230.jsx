@@ -9,7 +9,7 @@ const features = [
     description: "Our range of amenities ensures that residents enjoy a vibrant and engaging lifestyle.",
   },
   {
-    img: "40.jpg",
+    img: "/40.jpg",
     title: "Engaging Activities Designed to Enrich Lives and Foster Connections",
     description: "From arts and crafts to fitness classes, we offer diverse activities for all interests.",
   },
