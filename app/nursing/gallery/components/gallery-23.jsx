@@ -45,7 +45,7 @@ export function Gallery23() {
     let offset = 0;
 
     const scroll = () => {
-      offset -= .5; // speed (px/frame)
+      offset -= 1.5; // speed (px/frame)
       if (Math.abs(offset) >= loopedImages.length * 260 / 2) {
         offset = 0; // reset halfway for seamless loop
       }
@@ -78,10 +78,11 @@ export function Gallery23() {
 
         {/* Carousel */}
         <div className="relative w-full overflow-hidden">
-          <div
-            className="flex gap-6 md:gap-8 will-change-transform transition-transform duration-500 ease-out"
-            style={{ transform: `translateX(${scrollX}px)` }}
-          >
+        <div
+            className="flex gap-6 md:gap-8 will-change-transform"
+            style={{ transform: `translate3d(${scrollX}px, 0, 0)` }}
+            >
+
             {loopedImages.map((src, i) => (
               <div
                 key={i}
